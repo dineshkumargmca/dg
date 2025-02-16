@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { DgStackComponent } from '@dg/ngcomponents';
+import { DgStackComponent } from '@dg/dgcomponents';
 
 @Component({
   imports: [RouterModule, DgStackComponent],

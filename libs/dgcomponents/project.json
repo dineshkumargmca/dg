@@ -1,0 +1,29 @@
+{
+  "name": "dgcomponents",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/dgcomponents/src",
+  "prefix": "dg",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:package",
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "options": {
+        "project": "libs/dgcomponents/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/dgcomponents/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/dgcomponents/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}

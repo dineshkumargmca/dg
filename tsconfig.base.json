@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@dg/dgcomponents": ["libs/dgcomponents/src/index.ts"],
       "@dg/ngcomponents": ["libs/ngcomponents/src/index.ts"]
     }
   },
