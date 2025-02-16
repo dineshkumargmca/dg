@@ -2,7 +2,7 @@
   "name": "ngcomponents",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/ngcomponents/src",
-  "prefix": "lib",
+  "prefix": "dg",
   "projectType": "library",
   "tags": [],
   "targets": {

@@ -1,1 +1,1 @@
-export * from './lib/ngcomponents/ngcomponents.component';
+export * from './lib/layout/stack/stack.component';
